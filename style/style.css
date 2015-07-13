@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0 0;
+	padding:0 0;
+	height:100%;
+	width:100%;
+}
+.wrap{
+	font-family:"微软雅黑","宋体", Times, "Times New Roman", serif;
+	font-size:14px;
+	margin:0 0;
+	padding:0 0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+.marquee{
+	margin: 0 auto;
+	width: 960px;
+	height: 300px;
+	overflow: hidden;
+}
+.marquee ul{
+	width: 10000px;
+}
+.marquee ul li{
+	float: left;
+	width: 500px;
+	text-align: center;
+}
+.marquee ul li a{
+
+}
+.marquee ul li a:hover{
+	color: red;
+}
