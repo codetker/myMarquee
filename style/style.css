@@ -15,6 +15,7 @@ body{
 	width:100%;
 	overflow:hidden;
 }
+/*左右*/
 .marquee{
 	margin: 0 auto;
 	width: 960px;
@@ -35,3 +36,26 @@ body{
 .marquee ul li a:hover{
 	color: red;
 }
+/*上下*/
+/*.marquee{
+	margin: 0 auto;
+	width: 300px;
+	height: 500px;
+	overflow: hidden;
+}
+.marquee ul{
+	height: 10000px;
+}
+.marquee ul li{
+	width: 300px;
+	text-align: center;
+}
+.marquee ul li img{
+	width: 100%;
+}
+.marquee ul li a{
+
+}
+.marquee ul li a:hover{
+	color: red;
+}*/
